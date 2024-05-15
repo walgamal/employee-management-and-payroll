@@ -1,0 +1,187 @@
+---------------------------------------------------
+1.) Employee
+2.) Salary Employee Pay
+3.) Hourly Employee
+4.) Hourly Employee Pay
+5.) Agency Employee Pay
+---------------------------------------------------
+Which type of employee would you like to create?
+User Selected 1
+Enter Employee's First Name: John
+Enter Employee's Last Name: Marshall
+Enter Employee's SSN: 123-45-6789
+Enter Employee's ID: 123-M
+DATA FOR EMPLOYEE
+First Name: John
+Last Name: Marshall
+SSN: 123-45-6789
+ID: 123-M
+Would You Like To Enter Data for Another Employee? [Y/N]
+y
+---------------------------------------------------
+1.) Employee
+2.) Salary Employee Pay
+3.) Hourly Employee
+4.) Hourly Employee Pay
+5.) Agency Employee Pay
+---------------------------------------------------
+Which type of employee would you like to create?
+User Selected 2
+Enter Employee's First Name: Liv
+Enter Employee's Last Name: Donahue
+Enter Employee's SSN: 132456789
+ERROR: Invalid Format. Please Enter SSN In Format XXX-XX-XXXX (x:number): 123-4F-
+6789
+ERROR: Invalid Format. Please Enter SSN In Format XXX-XX-XXXX (x:number): 123-45-
+6789
+Enter Employee's ID: Jjj
+ERROR: Invalid Format. Enter ID In Format XXX-L (x:number,L:letter a-m): Jjj-N
+ERROR: Invalid Format. Enter ID In Format XXX-L (x:number,L:letter a-m): 123-N
+ERROR: Invalid Format. Enter ID In Format XXX-L (x:number,L:letter a-m): 123-M
+Enter Employee's Annual Salary: 0
+ERROR: Enter a Value Greater than 0: 20000
+Enter Employee's Tax Code: 0
+ERROR: Enter Tax Code 1-3: 4
+ERROR: Enter Tax Code 1-3: 1
+DATA FOR SALARY EMPLOYEE
+First Name: Liv
+Last Name: Donahue
+SSN: 123-45-6789
+ID: 123-M
+Annual Pay: 20000
+Weekly Pay: 384.615
+Tax Code: 1
+Payment Due: 288.462
+Would You Like To Enter Data for Another Employee? [Y/N]
+y
+---------------------------------------------------
+1.) Employee
+2.) Salary Employee Pay
+3.) Hourly Employee
+4.) Hourly Employee Pay
+5.) Agency Employee Pay
+---------------------------------------------------
+Which type of employee would you like to create?
+User Selected 3
+Enter Employee's First Name: Joe
+Enter Employee's Last Name: Marsh
+Enter Employee's SSN: 123-45-6789
+Enter Employee's ID: 123-A
+Enter Employee's Weekly Pay: 0
+ERROR: Enter a Value Greater than 400, But less than 3000: 3001
+ERROR: Enter a Value Greater than 400, But less than 3000: 500
+Enter Employee's Hours Worked: 0
+ERROR: Enter a Value 1-60: 61
+ERROR: Enter a Value 1-60: 60
+DATA FOR HOURLY EMPLOYEE
+First Name: Joe
+Last Name: Marsh
+SSN: 123-45-6789
+ID: 123-A
+Weekly Pay: 500
+Hourly Pay: 12.5
+Hours Worked: 60
+Would You Like To Enter Data for Another Employee? [Y/N]
+y
+---------------------------------------------------
+1.) Employee
+2.) Salary Employee Pay
+3.) Hourly Employee
+4.) Hourly Employee Pay
+5.) Agency Employee Pay
+---------------------------------------------------
+Which type of employee would you like to create?
+User Selected 4
+Enter Employee's First Name: Joe
+Enter Employee's Last Name: Marsh
+Enter Employee's SSN: 123-45-6789
+Enter Employee's ID: 564-Q
+ERROR: Invalid Format. Enter ID In Format XXX-L (x:number,L:letter a-m): 546-D
+Enter Employee's Weekly Pay: 0
+ERROR: Enter a Value Greater than 400, But less than 3000: 555.12
+Enter Employee's Hours Worked: 0
+ERROR: Enter a Value 1-60: 1
+Enter Employee's Tax Code: 3
+Enter Employee's Work Status ('P' = part-time and 'F' = full-time): R
+ERROR: Work Status must be 'F' for full-time or 'P' for part-time: F
+DATA FOR HOURLY EMPLOYEE PAY
+First Name: Joe
+Last Name: Marsh
+SSN: XXX-XX-6789
+ID: 546-D
+Weekly Pay: 555.12
+Hourly Pay: 13.878
+Hours Worked: 1
+Overtime Pay: $20.817
+Tax Code: 3
+Work Status: F
+Payment Due: 11.7963
+Would You Like To Enter Data for Another Employee? [Y/N]
+Y
+---------------------------------------------------
+1.) Employee
+2.) Salary Employee Pay
+3.) Hourly Employee
+4.) Hourly Employee Pay
+5.) Agency Employee Pay
+---------------------------------------------------
+Which type of employee would you like to create?
+User Selected 4
+Enter Employee's First Name: Olivia
+Enter Employee's Last Name: Berner
+Enter Employee's SSN: 987-65-5164
+Enter Employee's ID: 956-G
+Enter Employee's Weekly Pay: 52.25
+ERROR: Enter a Value Greater than 400, But less than 3000: 552.25
+Enter Employee's Hours Worked: 24
+Enter Employee's Tax Code: 2
+Enter Employee's Work Status ('P' = part-time and 'F' = full-time): P
+DATA FOR HOURLY EMPLOYEE PAY
+First Name: Olivia
+Last Name: Berner
+SSN: XXX-XX-5164
+ID: 956-G
+Weekly Pay: 552.25
+Hourly Pay: 13.8062
+Hours Worked: 24
+Overtime Pay: $20.7094
+Tax Code: 2
+Work Status: P
+Payment Due: 265.08
+Would You Like To Enter Data for Another Employee? [Y/N]
+y
+---------------------------------------------------
+1.) Employee
+2.) Salary Employee Pay
+3.) Hourly Employee
+4.) Hourly Employee Pay
+5.) Agency Employee Pay
+---------------------------------------------------
+Which type of employee would you like to create?
+User Selected 5
+Enter Employee's First Name: Bert
+Enter Employee's Last Name: Harn
+Enter Employee's SSN: 615-23-4853
+Enter Employee's ID: 954-B
+Enter Employee's Weekly Pay: 865.45
+Enter Employee's Hours Worked: 55
+Enter Employee's Tax Code: 1
+Enter Employee's Work Status ('P' = part-time and 'F' = full-time): F
+Enter Employee's Company Name: IBM
+DATA FOR AGENCY EMPLOYEE PAY
+First Name: Bert
+Last Name: Harn
+SSN: XXX-XX-4853
+ID: 954-B
+Weekly Pay: 865.45
+Hourly Pay: 21.6362
+Hours Worked: 55
+Overtime Pay: $20.7094
+Tax Code: 1
+Work Status: F
+Payment Due: 232.98
+Would You Like To Enter Data for Another Employee? [Y/N]
+1
+ERROR: Enter only 'Y' or 'N'!
+Would You Like To Enter Data for Another Employee? [Y/N]
+N
